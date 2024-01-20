@@ -1,20 +1,23 @@
-#python syntax (task1 and 2)
+#todo python syntax (task1 and 2)
+# Task 1
 print("Hello World")
 
+# Task 2
 if 5 > 2:
     print("YES")
 
-#python comments(task 1, 2)
-
+#todo python comments(task 1, 2)
+# Task 1
 #This is a comment
 
+#Task 2
 """
 This is a comment          
 written in
 more than just one line
 """
 
-#variables(tasks 1 - 7)
+#todo variables(tasks 1 - 7)
 # Task 1
 carname = "Volvo"
 
@@ -34,6 +37,7 @@ print(z)
 
 # Task 5
 x, y, z = "Orange", "Banana", "Cherry"
+
 # 6
 x = y = z = "Orange"
 
@@ -44,167 +48,204 @@ def myfunc():
     x = "fantastic"
 
 
-# DATA TYPES
+# todo data types
 # Task 1
 x = 5
 print(type(x))
 # int
+
 # Task 2
 x = "Hello World"
 print(type(x))
 # str
+
 # Task 3
 x = 20.5
 print(type(x))
 # float
+
 # Task 4
 x = ["apple", "banana", "cherry"]
 print(type(x))
 # list
+
 # Task 5
 x = ("apple", "banana", "cherry")
 print(type(x))
 # tuple
+
 # Task 6
 x = {"name": "John", "age": 36}
 print(type(x))
 # dict
+
 # Task 7
 x = True
 print(type(x))
 # bool
 
-# NUMBERS
+# todo numbers
 # Task 1
 x = 5
 x = float(x)
+
 # Task 2
 x = 5.5
 x = int(x)
+
 # Task 3
 x = 5
 x = complex(x)
 
-# STRINGS
+# todo strings
 # Task 1
 x = "Hello World"
 print(len(x))
+
 # Task 2
 txt = "Hello World"
 x = txt[0]
+
 # Task 3
 txt = "Hello World"
 x = txt[2:5]
+
 # Task 4
 txt = " Hello World "
 x = txt.strip()
+
 # Task 5
 txt = "Hello World"
 txt = txt.upper()
+
 # Task 6
 txt = "Hello World"
 txt = txt.lower()
+
 # Task 7
 txt = "Hello World"
 txt = txt.replace("H", "J")
+
 # Task 8
 age = 36
 txt = "My name is John, and I am {}"
 print(txt.format(age))
 
-# BOOLEANS
+# todo booleans
 # Task 1
 print(10 > 9)
 # true
+
 # Task 2
 print(10 == 9)
 # false
+
 # Task 3
 print(10 < 9)
 # false
+
 # Task 4
 print(bool("abc"))
 # true
+
 # Task 5
 print(bool(0))
 # false
 
-# OPERATORS
+# todo operators
 # Task 1
 print(10 * 5)
+
 # Task 2
 print(10 / 2)
+
 # Task 3
 fruits = ["apple", "banana"]
 if "apple" in fruits:
     print("Yes, apple is a fruit!")
+
 # Task 4
 if 5 != 10:
     print("5 and 10 is not equal")
-# 5
+
+# Task 5
 if 5 == 10 or 4 == 4:
     print("At least one of the statements is true")
 
-# LISTS
+# todo lists
 # Task 1
 fruits = ["apple", "banana", "cherry"]
 print(fruits)
+
 # Task 2
 fruits = ["apple", "banana", "cherry"]
 fruits[0] = "kiwi"
+
 # Task 3
 fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
+
 # Task 4
 fruits = ["apple", "banana", "cherry"]
 fruits.insert(1, "lemon")
+
 # Task 5
 fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
+
 # Task 6
 fruits = ["apple", "banana", "cherry"]
 print(fruits[-1])
+
 # Task 7
 fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(fruits[2:5])
+
 # Task 8
 fruits = ["apple", "banana", "cherry"]
 print(len(fruits))
 
-# TUPLES
+# todo tuples
 # Task 1
 fruits = ("apple", "banana", "cherry")
 print(fruits[0])
+
 # Task 2
 fruits = ("apple", "banana", "cherry")
 print(len(fruits))
+
 # Task 3
 fruits = ("apple", "banana", "cherry")
 print(fruits[-1])
+
 # Task 4
 fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(fruits[2:5])
 
-# SETS
+# todo sets
 # Task 1
 fruits = {"apple", "banana", "cherry"}
 if "apple" in fruits:
     print("Yes, apple is a fruit!")
+
 # Task 2
 fruits = {"apple", "banana", "cherry"}
 fruits.add("orange")
+
 # Task 3
 fruits = {"apple", "banana", "cherry"}
 more_fruits = ["orange", "mango", "grapes"]
 fruits.update(more_fruits)
+
 # Task 4
 fruits = {"apple", "banana", "cherry"}
 fruits.remove("banana")
+
 # Task 5
 fruits = {"apple", "banana", "cherry"}
 fruits.discard("banana")
 
-# DICTIONARIES
+# todo dictionaries
 # Task 1
 car = {
     "brand": "Ford",
@@ -212,6 +253,7 @@ car = {
     "year": 1964
 }
 print(car.get("model"))
+
 # Task 2
 car = {
     "brand": "Ford",
@@ -219,6 +261,7 @@ car = {
     "year": 1964
 }
 car["year"] = 2020
+
 # Task 3
 car = {
     "brand": "Ford",
@@ -226,6 +269,7 @@ car = {
     "year": 1964
 }
 car["color"] = "red"
+
 # Task 4
 car = {
     "brand": "Ford",
@@ -233,6 +277,8 @@ car = {
     "year": 1964
 }
 car.pop("model")
+car.pop("year")
+
 # Task 5
 car = {
     "brand": "Ford",
@@ -241,17 +287,19 @@ car = {
 }
 car.clear()
 
-# IF...ELSE
+# todo if else
 # Task 1
 a = 50
 b = 10
 if a > b:
     print("Hello World")
+
 # Task 2
 a = 50
 b = 10
 if a != b:
     print("Hello World")
+
 # Task 3
 a = 50
 b = 10
@@ -259,6 +307,7 @@ if a != b:
     print("Yes")
 else:
     print("No")
+
 # Task 4
 a = 50
 b = 10
@@ -268,18 +317,22 @@ elif a > b:
     print("2")
 else:
     print("3")
+
 # Task 5
 c = 10
 d = 10
 if a == b and c == d:
     print("Hello")
+
 # Task 6
 if 5 > 2:
     print("YES")
+
 # Task 7
 a = 2
 b = 5
 print("YES") if a == b else print("NO")
+
 # Task 8
 a = 2
 b = 50
@@ -287,7 +340,7 @@ c = 2
 if a == c or b == c:
     print("YES")
 
-# WHILE LOOP
+# todo while loops
 # Task 1
 i = 1
 while i < 6:
@@ -375,12 +428,12 @@ def my_function(kid):
     print("His last name is " + kid["lname"])
 
 
-# LAMBDA
+# todo lambda
 # Task 1
 x = lambda a: a
 
 
-# CLASSES
+# todo classes
 # Task 1
 class MyClass:
     x = 5
@@ -410,7 +463,7 @@ class Person:
         self.age = age
 
 
-# INHERITENCE
+# todo inheritance
 # Task 1
 class Student(Person):
     pass
@@ -432,7 +485,7 @@ class Student(Person):
 x = Student("Mike")
 x.printname()
 
-# MODULES
+# todo modules
 # Task 1
 import mymodule
 
@@ -444,5 +497,5 @@ import mymodule
 
 print(dir(mymodule))
 
-# Task 4
+# Task 2
 from mymodule import person1

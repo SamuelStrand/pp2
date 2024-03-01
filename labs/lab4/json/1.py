@@ -1,6 +1,6 @@
 import json
 
-f_path ="D:\programming\python\pp2\json\js.json"
+f_path =r"C:\Users\emilv\Documents\GitHub\pp2\labs\lab4\json\js.json"
 f = open(f_path)
 x = json.load(f)
 

@@ -1,3 +1,3 @@
 import os
 
-print(os.listdir(r"../lab5"))
+print(os.listdir(r"../lab_files"))
